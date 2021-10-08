@@ -41,10 +41,31 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 20px;
 }
 
+.header {
+    position: absolute;
+    top: 87px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .login-list {
     display: flex;
     list-style: none;
     padding: 0px;
     margin: 0px;
     justify-content: center;
+}
+
+.holiday-dreams {
+    background-image: url(../img/Vector\ Smart\ Object.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.eclipse {
+    background-color: rgba(26, 25, 21, 0.35);
+    min-height: 540px;
+    color: #fff;
 }
